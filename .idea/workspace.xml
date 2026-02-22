@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da354fd-0936-4de5-849d-48846cc0b4bd" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/2_eda.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_strategy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_execution.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_analysis.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miax_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MIAX_TB2.6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MIAX_TB2.6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_data_download.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1_data_download.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2_eda.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assignment_parquet.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assignment_parquet.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/monthly_closes.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/resources/monthly_closes.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/rebalancing_dates.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/resources/rebalancing_dates.parquet" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,7 +58,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "wip",
     "last_opened_file_path": "/Users/juanjo/Documents/MIAX/Tareas/MIAX_TB2.6/resources",
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
