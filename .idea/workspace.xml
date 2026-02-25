@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da354fd-0936-4de5-849d-48846cc0b4bd" name="Changes" comment="WIP 2">
+    <list default="true" id="4da354fd-0936-4de5-849d-48846cc0b4bd" name="Changes" comment="WIP 3">
+      <change beforePath="$PROJECT_DIR$/.idea/MIAX_TB2.6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MIAX_TB2.6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_strategy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3_strategy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_execution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4_execution.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/5_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/portfolio_daily.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portfolio_daily.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/portfolio_selections.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portfolio_selections.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miax_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/miax_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,12 +114,32 @@
       <option name="project" value="LOCAL" />
       <updated>1771788620861</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WIP 3">
+      <option name="closed" value="true" />
+      <created>1771800769893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771800769893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="WIP 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP 2" />
+    <MESSAGE value="WIP 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/3_strategy.ipynb</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
