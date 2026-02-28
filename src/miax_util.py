@@ -79,8 +79,6 @@ def run_strategy(rebal_dates: pd.DataFrame, universe: pd.DataFrame, monthly_clos
 # ------------------------------------------------------------
 # 3. FUNCIÓN DE REBALANCEO
 # ------------------------------------------------------------
-
-
 def check_and_rebalance(rebal_date, tickers, holdings, cash, parquet, commission_rate, commission_min):
     """
     Ejecuta un rebalanceo completo:
@@ -114,10 +112,6 @@ def check_and_rebalance(rebal_date, tickers, holdings, cash, parquet, commission
         cash += proceeds - commission
         commissions += commission
         del holdings[ticker]
-
-    # NOTA: Tickers sin precio el día de rebalanceo se omiten para evitar lookahead.
-    # El cash correspondiente queda en liquidez hasta el siguiente rebalanceo.
-    # El cash disponible se reparte equitativamente entre los tickers disponibles.
 
     tickers_available_to_buy = [t for t in tickers_to_buy if t in prices_today.index]
     n_to_buy = len(tickers_available_to_buy)
